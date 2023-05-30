@@ -25,7 +25,7 @@ jobs:
             - name: Install and Build 🔧
               run: |
                   npm ci
-                  npx slidev build --base=/regain-control-of-your-backends-with-sylius-and-api-platform/
+                  npx slidev build --base=/resource-revolution/
 
             - name: Deploy on GitHub Pages 🚀
               uses: crazy-max/ghaction-github-pages@v3.0.0
