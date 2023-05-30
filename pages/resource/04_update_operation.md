@@ -42,7 +42,7 @@ It will configure this route for your `update` operation.
 
 ---
 
-```php {all|19-23|19|20|21}
+```php {all|14-18|14|15|16}
 final class BookGrid extends AbstractGrid implements ResourceAwareGridInterface
 {
     // [...]
@@ -50,20 +50,15 @@ final class BookGrid extends AbstractGrid implements ResourceAwareGridInterface
     public function buildGrid(GridBuilderInterface $gridBuilder): void
     {
         $gridBuilder
-            ->orderBy('name', 'asc')
-            ->addField(
-                StringField::create('name')
-                    ->setLabel('sylius.ui.name')
-                    ->setSortable(true)
-            )
-            ->addField(
-                StringField::create('author')
-                    ->setLabel('sylius.ui.author')
-                    ->setSortable(true)
-            )
+            // [...]
             ->addActionGroup(
                 MainActionGroup::create(
                     CreateAction::create(),
+                )
+            )
+            ->addActionGroup(
+                ItemActionGroup::create(
+                    UpdateAction::create(),
                 )
             )
         ;
@@ -79,30 +74,24 @@ final class BookGrid extends AbstractGrid implements ResourceAwareGridInterface
 
 ---
 layout: image
-image: /adding_book_01.png
+image: /editing_book_01.png
 transition: fade
 ---
 
 ---
 layout: image
-image: /adding_book_02.png
+image: /editing_book_02.png
 transition: fade
 ---
 
 ---
 layout: image
-image: /adding_book_03.png
+image: /editing_book_03.png
 transition: fade
 ---
 
 ---
 layout: image
-image: /adding_book_04.png
-transition: fade
----
-
----
-layout: image
-image: /adding_book_05.png
+image: /editing_book_04.png
 transition: fade
 ---
