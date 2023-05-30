@@ -24,3 +24,7 @@ src: ./resource/03_create_operation.md
 ---
 src: ./resource/04_update_operation.md
 ---
+
+---
+src: ./resource/05_delete_operation.md
+---
