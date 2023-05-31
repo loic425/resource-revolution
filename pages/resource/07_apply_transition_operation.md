@@ -148,3 +148,9 @@ layout: image
 image: /publishing_book_03.png
 transition: fade
 ---
+
+---
+layout: image
+image: /publishing_book_04.png
+transition: fade
+---

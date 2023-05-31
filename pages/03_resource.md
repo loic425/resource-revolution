@@ -36,3 +36,7 @@ src: ./resource/06_bulk_delete_operation.md
 ---
 src: ./resource/07_apply_transition_operation.md
 ---
+
+---
+src: ./resource/08_processor.md
+---
