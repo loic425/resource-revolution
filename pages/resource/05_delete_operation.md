@@ -86,3 +86,9 @@ layout: image
 image: /removing_book_02.png
 transition: fade
 ---
+
+---
+layout: image
+image: /removing_book_03.png
+transition: fade
+---

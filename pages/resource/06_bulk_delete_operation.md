@@ -94,3 +94,9 @@ layout: image
 image: /removing_many_books_03.png
 transition: fade
 ---
+
+---
+layout: image
+image: /removing_many_books_04.png
+transition: fade
+---
