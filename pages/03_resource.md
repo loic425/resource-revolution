@@ -40,3 +40,7 @@ src: ./resource/07_apply_transition_operation.md
 ---
 src: ./resource/08_processor.md
 ---
+
+---
+src: ./resource/09_bulk_update_operation.md
+---

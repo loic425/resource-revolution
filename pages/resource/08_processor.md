@@ -19,7 +19,7 @@ use Sylius\Component\Resource\Model\ResourceInterface;
 #[Delete]
 #[Update(
     methods: ['PUT', 'PATCH'],
-    path: '{id}/publish',
+    path: 'books/{id}/publish',
     shortName: 'publish',
     processor: PublishBookProcessor::class,
     validate: false,
