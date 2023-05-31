@@ -4,10 +4,11 @@
 
 We configure an `update` operation.
 
-```php {all|12-18|12-18,4|13|14|15|16|17}
+```php {all|13-19|13-19,5|14|15|16|17|17,4|18}
 namespace App\Entity;
 
 // [...]
+use App\State\Processor\PublishBookProcessor;
 use Sylius\Component\Resource\Metadata\Update;
 use Sylius\Component\Resource\Model\ResourceInterface;
 
@@ -29,6 +30,21 @@ class Book implements ResourceInterface
 }
 
 ```
+
+</v-clicks>
+
+---
+
+# Route
+
+<v-clicks>
+
+It will configure this route for your `publish` operation.
+
+| Name              | Method     | Path                |
+|-------------------|------------|---------------------|
+| app_book_publish  | PUT, PATCH | /books/{id}/publish |      
+
 
 </v-clicks>
 
@@ -63,22 +79,6 @@ final class PublishBookProcessor implements ProcessorInterface
 }
 
 ```
-
----
-
-# Route
-
-<v-clicks>
-
-It will configure this route for your `publish` operation.
-
-| Name              | Method     | Path                |
-|-------------------|------------|---------------------|
-| app_book_publish  | PUT, PATCH | /books/{id}/publish |      
-
-
-</v-clicks>
-
 
 ---
 layout: image

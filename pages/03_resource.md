@@ -1,8 +1,8 @@
 # New Resource System
 
-We can thank:
-
 <v-clicks>
+
+We can thank:
 
 * Akawaka & Commerce Weavers for sponsoring that development
 * Łukasz Chruściel at Commerce Weavers for the code reviews

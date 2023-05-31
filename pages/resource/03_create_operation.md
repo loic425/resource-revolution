@@ -2,7 +2,7 @@
 
 <v-clicks>
 
-`Create` operation allows to add a new item of your resource.
+We'll use `Create` operation which allows to add a new item of your resource.
 
 ```php {all|9|9,4}
 namespace App\Entity;

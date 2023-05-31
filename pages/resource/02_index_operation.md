@@ -2,7 +2,7 @@
 
 <v-clicks>
 
-`Index` operation allows to browse all items of your resource.
+We'll use `Index` operation which allows to browse all items of your resource.
 
 ```php {all|8|8,3}
 namespace App\Entity;

@@ -2,7 +2,7 @@
 
 <v-clicks>
 
-`Update` operation allows to edit an existing item of your resource.
+We'll use `Update` operation which allows to edit an existing item of your resource.
 
 ```php {all|11|11,6}
 namespace App\Entity;
@@ -87,11 +87,5 @@ transition: fade
 ---
 layout: image
 image: /editing_book_03.png
-transition: fade
----
-
----
-layout: image
-image: /editing_book_04.png
 transition: fade
 ---

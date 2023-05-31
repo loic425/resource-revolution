@@ -2,7 +2,7 @@
 
 <v-clicks>
 
-`Delete` operation allows to remove an existing item of your resource.
+We'll use `Delete` operation which allows to remove an existing item of your resource.
 
 ```php {all|13|13,5}
 namespace App\Entity;

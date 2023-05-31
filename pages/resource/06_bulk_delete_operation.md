@@ -2,7 +2,7 @@
 
 <v-clicks>
 
-`Bulk delete` operation allows to remove several items of your resource at the same time.
+We'll use `Bulk Delete` operation which allows to remove several items of your resource at the same time.
 
 ```php {all|14|14,3}
 namespace App\Entity;

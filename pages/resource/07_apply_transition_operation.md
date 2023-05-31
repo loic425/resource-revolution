@@ -2,7 +2,7 @@
 
 <v-clicks>
 
-It will configure this route for your `apply_state_machine_transition` operation.
+We'll use `apply_state_machine_transition` operation which allows to apply a transition using a state machine.
 
 ```php {all|17|17,3}
 namespace App\Entity;
