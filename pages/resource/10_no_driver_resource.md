@@ -1,0 +1,2 @@
+# Resource with no driver
+

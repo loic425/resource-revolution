@@ -53,3 +53,7 @@ src: ./pages/03_monofony.md
 ---
 src: ./pages/03_resource.md
 ---
+
+---
+src: ./pages/04_resource_without_driver.md
+---
