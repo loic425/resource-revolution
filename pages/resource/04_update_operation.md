@@ -89,3 +89,9 @@ layout: image
 image: /editing_book_03.png
 transition: fade
 ---
+
+---
+layout: image
+image: /editing_book_04.png
+transition: fade
+---

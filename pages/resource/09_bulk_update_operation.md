@@ -4,7 +4,7 @@
 
 We'll use `Bulk Update` operation which allows to update several items of your resource at the same time.
 
-```php {all|12|12,5|13|14|15|16|17}
+```php {all|12|12,5|13|14|15}
 namespace App\Entity;
 
 // [...]
@@ -17,8 +17,6 @@ use Sylius\Component\Resource\Model\ResourceInterface;
 #[Update]
 #[BulkDelete]
 #[BulkUpdate(
-    methods: ['PUT', 'PATCH'],
-    path: 'books/bulk_publish',
     shortName: 'bulk_publish',
     processor: PublishBookProcessor::class,
     validate: false,
@@ -50,7 +48,7 @@ It will configure this route for your `bulk_publish` operation.
 
 ---
 
-```php {all|12-24|12|15-21|16-18|20}
+```php {all|12-24|12|15-21|16-18}
 final class BookGrid extends AbstractGrid implements ResourceAwareGridInterface
 {
     // [...]
@@ -70,7 +68,6 @@ final class BookGrid extends AbstractGrid implements ResourceAwareGridInterface
                                 'route' => 'app_admin_book_bulk_publish',
                             ],
                             'class' => 'green',
-                            'transition' => 'publish',
                         ]),
                 )
             )

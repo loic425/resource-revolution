@@ -105,5 +105,5 @@ class Book implements ResourceInterface
 
 ---
 layout: image
-image: /browsing_books.png
+image: /browsing_books_01.png
 ---
