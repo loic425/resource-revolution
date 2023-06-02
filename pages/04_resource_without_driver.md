@@ -27,3 +27,7 @@ src: ./resource_without_driver/04_update_operation.md
 ---
 src: ./resource_without_driver/05_delete_operation.md
 ---
+
+---
+src: ./resource_without_driver/06_sorting_data.md
+---
