@@ -15,3 +15,11 @@ src: ./resource_without_driver/01_configure_your_resource.md
 ---
 src: ./resource_without_driver/02_index_operation.md
 ---
+
+---
+src: ./resource_without_driver/03_create_operation.md
+---
+
+---
+src: ./resource_without_driver/04_update_operation.md
+---
