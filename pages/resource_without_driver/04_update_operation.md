@@ -106,3 +106,27 @@ final class UpdateBoardGameProcessor implements ProcessorInterface
 }
 
 ```
+
+---
+layout: image
+image: /editing_board_game_01.png
+transition: fade
+---
+
+---
+layout: image
+image: /editing_board_game_02.png
+transition: fade
+---
+
+---
+layout: image
+image: /editing_board_game_03.png
+transition: fade
+---
+
+---
+layout: image
+image: /editing_board_game_04.png
+transition: fade
+---
