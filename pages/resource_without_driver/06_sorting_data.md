@@ -108,3 +108,89 @@ final class BoardGameGridProvider implements DataProviderInterface
 }
 
 ```
+
+---
+layout: image
+image: /sorting_board_games_03.png
+transition: fade
+---
+
+---
+layout: image
+image: /sorting_board_games_04.png
+transition: fade
+---
+
+---
+
+# Default sorting
+
+Is it sorted by name?
+
+---
+layout: image
+image: /sorting_board_games_05.png
+transition: fade
+---
+
+---
+
+# Default sorting
+
+No!
+
+<div style="width:480px"><iframe allow="fullscreen" frameBorder="0" height="270" src="https://giphy.com/embed/GBX71S3ubpCxWuB8kb/video" width="480"></iframe></div>
+
+---
+transition: fade
+---
+
+```php{all|9}
+final class BoardGameGridProvider implements DataProviderInterface
+{
+    public function getData(Grid $grid, Parameters $parameters): Pagerfanta
+    {
+        $data = [];
+
+        $fileData = $this->getFileData();
+
+        $sorting = $parameters->get('sorting') ?? [];
+
+        $fileData = $this->sortData($fileData, $sorting);
+        
+        // [...]
+    }
+
+    // [...]
+}
+
+```
+
+---
+
+```php{9}
+final class BoardGameGridProvider implements DataProviderInterface
+{
+    public function getData(Grid $grid, Parameters $parameters): Pagerfanta
+    {
+        $data = [];
+
+        $fileData = $this->getFileData();
+
+        $sorting = $parameters->get('sorting') ?? $grid->getSorting();
+
+        $fileData = $this->sortData($fileData, $sorting);
+        
+        // [...]
+    }
+
+    // [...]
+}
+
+```
+
+---
+layout: image
+image: /sorting_board_games_06.png
+transition: fade
+---
