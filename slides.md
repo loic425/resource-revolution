@@ -57,3 +57,10 @@ src: ./pages/03_resource.md
 ---
 src: ./pages/04_resource_without_driver.md
 ---
+
+---
+layout: center
+class: bg-black text-white
+---
+
+Coming soon...
