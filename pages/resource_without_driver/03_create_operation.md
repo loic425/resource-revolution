@@ -2,16 +2,14 @@
 
 <v-clicks>
 
-```php{all|13|13,5|14|14,4}
+```php{all|11|11,5|12|12,4}
 namespace App\BoardGameBlog\Infrastructure\Sylius\Resource;
 
 // [...]
 use App\BoardGameBlog\Infrastructure\Sylius\State\Processor\CreateBoardGameProcessor;
 use Sylius\Component\Resource\Metadata\Create;
 
-#[Resource(
-    alias: 'app.board_game',
-)]
+#[Resource]
 #[Index(
     grid: 'app_board_game'
 )]

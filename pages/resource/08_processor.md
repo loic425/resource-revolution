@@ -4,7 +4,7 @@
 
 We configure an `update` operation.
 
-```php {all|13-19|13-19,5|14|15|16|17|17,4|18}
+```php {all|13-18|13-18,5|14|15|16|16,4|17}
 namespace App\Entity;
 
 // [...]
@@ -19,7 +19,6 @@ use Sylius\Component\Resource\Model\ResourceInterface;
 #[Delete]
 #[Update(
     methods: ['PUT', 'PATCH'],
-    path: 'books/{id}/publish',
     shortName: 'publish',
     processor: PublishBookProcessor::class,
     validate: false,

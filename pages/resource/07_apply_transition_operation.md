@@ -112,7 +112,7 @@ final class BookGrid extends AbstractGrid implements ResourceAwareGridInterface
                     UpdateAction::create(),
                     Action::create('publish', 'apply_transition')
                         ->setLabel('app.ui.publish')
-                        ->setIcon('icon: checkmark')
+                        ->setIcon('checkmark')
                         ->setOptions([
                             'link' => [
                                 'route' => 'app_admin_book_publish',

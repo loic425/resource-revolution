@@ -2,7 +2,7 @@
 
 <v-clicks>
 
-```php{all|11-13|11-13,3}
+```php{all|9-13|9-13,3}
 namespace App\BoardGameBlog\Infrastructure\Sylius\Resource;
 
 use Sylius\Component\Resource\Metadata\Index;
@@ -10,9 +10,7 @@ use Sylius\Component\Resource\Metadata\Resource;
 use Sylius\Component\Resource\Model\ResourceInterface;
 use Symfony\Component\Validator\Constraints\NotBlank;
 
-#[Resource(
-    alias: 'app.board_game',
-)]
+#[Resource]
 #[Index(
     grid: 'app_board_game'
 )]
