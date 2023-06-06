@@ -4,6 +4,7 @@
 
 We can thank:
 
+* API Platform for the inspiration
 * Akawaka & Commerce Weavers for sponsoring that development
 * Łukasz Chruściel at Commerce Weavers for the code reviews
 
