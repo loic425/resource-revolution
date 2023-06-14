@@ -1,4 +1,4 @@
-# Adding board games
+## Adding board games
 
 <v-clicks>
 

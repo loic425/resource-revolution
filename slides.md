@@ -28,7 +28,7 @@ css: unocss
 
 # Resource Revolution
 
-with the new Sylius Resource Bundle
+with the new Sylius Resource & Grid bundles
 
 <div align="center">
 <img class="w-70" src="https://www.akawaka.fr/build/front/images/logo_akawaka_noir.png">

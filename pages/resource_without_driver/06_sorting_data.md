@@ -1,4 +1,4 @@
-# Sorting board games
+## Sorting board games
 
 <v-clicks>
 
@@ -123,7 +123,7 @@ transition: fade
 
 ---
 
-# Default sorting
+## Default sorting
 
 Is it sorted by name?
 
@@ -134,8 +134,6 @@ transition: fade
 ---
 
 ---
-
-# Default sorting
 
 No!
 

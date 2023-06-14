@@ -1,3 +1,30 @@
+---
+class: 'text-center'
+---
+
+<div align="center">
+<img class="w-75" align="center" src="https://sylius.com/wp-content/uploads/2021/03/sylius-logo_sylius-logo-light-1024x422.jpg">
+</div>
+
+## Resource Bundle
+
+
+<!--
+
+## Today use cases
+
+* Cela a été conçu initialement pour faire du CRUD d'entités Doctrine.
+* Cela permet d'éviter d'écrire des controllers qui font tous la même chose.
+
+## Tomorrow use cases
+
+* Meilleur DX
+* Customiser la couche de persistance : ERP, Elastic search..
+
+-->
+
+---
+
 # New Resource System
 
 <v-clicks>

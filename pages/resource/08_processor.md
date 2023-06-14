@@ -1,4 +1,4 @@
-# Publishing books with custom processor
+## Publishing books with custom processor
 
 <v-clicks>
 
@@ -34,7 +34,7 @@ class Book implements ResourceInterface
 
 ---
 
-# Route
+## Route
 
 <v-clicks>
 

@@ -1,4 +1,4 @@
-# Removing many books
+## Removing many books
 
 <v-clicks>
 
@@ -31,7 +31,7 @@ class Book implements ResourceInterface
 
 ---
 
-# Route
+## Route
 
 <v-clicks>
 

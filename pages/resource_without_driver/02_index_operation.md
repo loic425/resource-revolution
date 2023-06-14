@@ -1,4 +1,4 @@
-# Browsing board games
+## Browsing board games
 
 <v-clicks>
 

@@ -1,4 +1,4 @@
-# Browsing books
+## Browsing books
 
 <v-clicks>
 
@@ -23,7 +23,7 @@ class Book implements ResourceInterface
 
 ---
 
-# Route
+## Route
 
 <v-clicks>
 
@@ -38,7 +38,7 @@ It will configure this route for your `index` operation.
 
 ---
 
-# Create a grid
+## Create a grid
 
 You can use the Grid maker.
 
@@ -76,7 +76,7 @@ final class BookGrid extends AbstractGrid implements ResourceAwareGridInterface
 
 ---
 
-# Use this grid for your index operation
+## Use this grid for your index operation
 
 <v-clicks>
 

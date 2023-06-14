@@ -9,6 +9,8 @@
 </v-clicks>
 
 ---
+hideInToc: true
+---
 
 # Resource with data from a CSV file
 

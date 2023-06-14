@@ -1,4 +1,4 @@
-# Use the Resource attribute
+## Use the Resource attribute
 
 PHP attribute ```#[Resource]``` configures your entity as a Sylius resource.
 

@@ -1,4 +1,4 @@
-# Adding books
+## Adding books
 
 <v-clicks>
 
@@ -25,7 +25,7 @@ class Book implements ResourceInterface
 
 ---
 
-# Route
+## Route
 
 <v-clicks>
 

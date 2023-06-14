@@ -13,7 +13,20 @@ image: https://ressources.mobizel.com/wp-content/uploads/2019/12/monofony-banner
 
 </v-clicks>
 
+<!-- 
 
+* Démarrer une application moderne Symfony.
+
+* Profiter des composants et bundles de Sylius
+
+* Aider à ce concentrer sur ce qui compte le plus : le métier
+
+Présenter pourquoi on s'en sert dans ce talk...
+
+-->
+
+---
+hideInToc: true
 ---
 
 # Installation

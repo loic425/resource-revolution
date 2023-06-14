@@ -1,4 +1,4 @@
-# Deleting board games
+## Deleting board games
 
 <v-clicks>
 

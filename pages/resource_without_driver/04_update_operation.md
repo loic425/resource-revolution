@@ -1,4 +1,4 @@
-# Editing board games
+## Editing board games
 
 <v-clicks>
 
