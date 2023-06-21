@@ -98,7 +98,7 @@ transition: fade
 
 ---
 
-```php {all|12-24|12|13|14|15-24|16-21|22|23}
+```php {all|12-21|12|13|14|15|16-18|20|21}
 final class BookGrid extends AbstractGrid implements ResourceAwareGridInterface
 {
     // [...]
@@ -110,19 +110,16 @@ final class BookGrid extends AbstractGrid implements ResourceAwareGridInterface
             ->addActionGroup(
                 ItemActionGroup::create(
                     UpdateAction::create(),
-                    Action::create('publish', 'apply_transition')
-                        ->setLabel('app.ui.publish')
-                        ->setIcon('checkmark')
-                        ->setOptions([
-                            'link' => [
-                                'route' => 'app_admin_book_publish',
-                                'parameters' => [
-                                    'id' => 'resource.id',
-                                ],
-                            ],
+                    ApplyTransitionAction::create(
+                        name: 'publish',
+                        route: 'app_admin_book_publish',
+                        routeParameters: ['id' => 'resource.id'],
+                        options: [
                             'class' => 'green',
-                            'transition' => 'publish',
-                        ]),
+                        ],
+                    )
+                        ->setLabel('app.ui.publish')
+                        ->setIcon('checkmark'),
                     DeleteAction::create(),
                 )
             )
