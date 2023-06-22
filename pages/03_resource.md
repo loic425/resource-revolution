@@ -38,6 +38,10 @@ We can thank:
 </v-clicks>
 
 ---
+src: ./resource/00_configure_your_templates.md
+---
+
+---
 src: ./resource/01_configure_your_resource.md
 ---
 
